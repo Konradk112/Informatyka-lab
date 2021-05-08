@@ -8,7 +8,7 @@ if a % 2 == 0:
    print (a)
 else:
    print (a)
-while a < b:
+while a <= b:
     suma = suma + a
     j = j + 1
     a = a + 2
