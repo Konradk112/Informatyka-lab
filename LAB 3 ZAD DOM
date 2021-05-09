@@ -1,0 +1,16 @@
+a = 1
+b = 6
+suma = 0
+j = 0
+
+if a % 2 == 0:
+   a = a + 1
+   print (a)
+else:
+   print (a)
+while a <= b:
+    suma = suma + a
+    j = j + 1
+    a = a + 2
+srednia = suma / j
+print (srednia)
